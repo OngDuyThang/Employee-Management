@@ -1,0 +1,76 @@
+.employeeListContainer {
+    margin-top: 80px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 32px;
+    margin-left: auto;
+    margin-right: auto;
+
+    h2 {
+        width: 100%;
+        text-align: center;
+        font-size: 34px;
+        padding: 16px 0;
+    }
+
+    .btn {
+        padding: 16px;
+        border-radius: 6px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .add {
+        background-color: #1082EF;
+    }
+
+    .btns {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .delete {
+        background-color: #CC2549;
+    }
+
+    .update {
+        background-color: #26B0B1;
+    }
+
+    table {
+        border: 1px solid #ccc;
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+
+        tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #F1F1F1;
+        }
+
+        th,
+        td {
+            padding: 32px 16px;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        .short {
+            width: 20%;
+        }
+
+        .long {
+            width: 30%;
+        }
+    }
+}
